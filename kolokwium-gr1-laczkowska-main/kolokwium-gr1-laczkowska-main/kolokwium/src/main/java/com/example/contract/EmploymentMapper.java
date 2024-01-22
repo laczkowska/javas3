@@ -8,7 +8,6 @@ public class EmploymentMapper {
         employmentDto.setPosition(employment.getPosition());
         employmentDto.setStartDate(employment.getStartDate());
         employmentDto.setEndDate(employment.getEndDate());
-        // Map other fields as needed
         return employmentDto;
     }
 }

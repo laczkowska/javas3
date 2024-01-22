@@ -75,7 +75,6 @@ public class PersonService {
         Person person = personRepository.findById(personId).orElse(null);
         if (person != null) {
             Employment employment = new Employment();
-            // map fields from employmentDto to employment
             employment.setPerson(person);
             empRepository.save(employment);
         }
@@ -96,12 +95,10 @@ public class PersonService {
     }
 
     private Person mapToEntity(PersonDto personDto) {
-        // map fields from personDto to Person
         return new Person();
     }
 
     private EmploymentDto mapToDto(Employment employment) {
-        // map fields from employment to EmploymentDto
         return new EmploymentDto();
     }
 

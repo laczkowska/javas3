@@ -4,7 +4,6 @@ public class RandomPersonDto {
     private int id;
     private String firstName;
     private String lastName;
-    // Additional fields
 
     public int getId() {
         return id;

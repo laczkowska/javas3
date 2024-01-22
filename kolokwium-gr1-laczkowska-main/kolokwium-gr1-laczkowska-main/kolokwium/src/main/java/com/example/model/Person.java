@@ -9,11 +9,8 @@ public class Person {
     private int id;
     private String firstName;
     private String lastName;
+    private List<Employment> employments;
 
-    // Constructor, getters, and setters
-    // ...
-
-    // Setters
     public void setId(int id) {
         this.id = id;
     }
@@ -26,7 +23,6 @@ public class Person {
         this.lastName = lastName;
     }
 
-    // Getters
     public int getId() {
         return id;
     }

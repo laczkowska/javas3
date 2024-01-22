@@ -42,6 +42,4 @@ public class EmploymentDto {
         this.endDate = endDate;
     }
 
-    // Getter and setter methods for other fields
-    // ...
 }

@@ -5,10 +5,6 @@ public class RandomDataClientDto {
     private String firstName;
     private String lastName;
 
-    // Constructor, getters, and setters
-    // ...
-
-    // Setters
     public void setId(int id) {
         this.id = id;
     }
@@ -21,7 +17,6 @@ public class RandomDataClientDto {
         this.lastName = lastName;
     }
 
-    // Getters
     public int getId() {
         return id;
     }

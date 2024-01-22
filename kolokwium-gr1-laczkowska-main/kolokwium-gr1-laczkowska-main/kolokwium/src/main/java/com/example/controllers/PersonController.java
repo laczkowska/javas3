@@ -80,7 +80,6 @@ public class PersonController {
                     randomPersonDto.setId(data.getId());
                     randomPersonDto.setFirstName(data.getFirstName()); // Corrected set method
                     randomPersonDto.setLastName(data.getLastName());
-                    // Additional mapping for other fields
                     return randomPersonDto;
                 })
                 .collect(Collectors.toList());
